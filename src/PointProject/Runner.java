@@ -1,0 +1,13 @@
+package PointProject;
+
+public class Runner {
+
+    public static void main(String[] args) {
+        Point first = new Point(6, 5);
+        Point second= new Point(3,1);
+
+        System.out.println(first.distance());
+        System.out.println(first.distance(second));
+        System.out.println(second.distance(2,2));
+    }
+}
